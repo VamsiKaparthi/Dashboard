@@ -38,3 +38,37 @@ body{
     border-bottom: 1px solid #2f2e31;
     grid-area: 1/2/2/3;
 }
+.header{
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    padding: 10px;
+}
+.upper-header{
+    display: grid;
+    grid-template-columns: 50px 1fr 1fr 250px;
+}
+.upper-header>img{
+    align-self: center;
+    justify-self: end;
+}
+.search-bar{
+    height: 33%;
+    width:80%;
+    border: 0.2px  solid white;
+    border-radius: 3px;
+    align-self: center;
+    grid-column: 2/4;
+    margin: 5px;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:15px;
+    font-size: 20px;
+    font-weight: 300;
+}
+.profile>img{
+    height: 50px;
+}
