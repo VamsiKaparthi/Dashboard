@@ -72,3 +72,21 @@ body{
 .profile>img{
     height: 50px;
 }
+.lower-header{
+    display: grid;
+    grid-row: 2/3;
+    grid-template-columns: 1fr 50%;
+}
+.header-box{
+    display: flex;
+    width: min(80px,100px);
+    padding: 5px;
+    height: 20px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    font-size: 100%;
+    font-weight: 500;
+}
